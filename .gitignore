@@ -1,0 +1,17 @@
+﻿# local
+.env
+__pycache__/
+.pytest_cache/
+*.egg-info/
+
+# outputs
+kg_storage/
+selection_recommendation_*.txt
+
+# crawler data (large)
+crawlers/clothing_data/*.json
+crawlers/clothing_data/*.csv
+crawlers/clothing_data/crawl_seen_post_hashes.txt
+crawlers/clothing_data/images/
+!crawlers/clothing_data/.gitkeep
+
